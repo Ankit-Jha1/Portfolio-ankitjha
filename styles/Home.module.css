@@ -1,129 +1,146 @@
-.container {
-  padding: 0 2rem;
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap");
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+  padding: 5px;
+  border-bottom: #bfcc5e;
 }
 
-.main {
-  min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
+.navGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 50px;
+}
+
+.techUse {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* background-color: #2196f3; */
+  padding: 5px;
+  margin: 0 300px;
+}
+
+.project {
+  margin-left: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 28px;
+  color: yellowgreen;
+  border: 5px solid #80e1c3;
+  font-family: "Comic Neue", "cursive";
+  border-radius: 20px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+.projectNames {
+  padding: 15px;
+}
+
+.projectList {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.buttons {
+  padding: 15px;
+}
+
+.eachbutton {
+  width: 100px;
+  margin: 3px;
+  height: 40px;
+  background-color: #bfcc5e;
+  font-size: 25px;
+  text-decoration: none;
+  font-family: "Comic Neue", cursive;
+  border-radius: 20px;
+  border: 1px solid #263803;
+  color: rgb(26, 2, 2);
+  font-weight: bold;
+}
+
+.Intro {
+  /* display: flex; */
+  display: block;
+  margin: auto;
+  /* flex-wrap: wrap; */
+  margin-top: 30px;
+  margin-bottom: 50px;
+  /* margin-left: 200px; */
+  font-family: Comic Neue, cursive;
+  font-weight: 700;
+  /* margin-top: 200px; */
+  font-size: 50px;
+  width: 40%;
+
+  align-content: center;
+  justify-content: center;
+}
+.heading {
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.allTech {
+  margin: 50px;
+}
+
+.line {
+  color: white;
+  width: 700px;
+}
+
+.navbarContent {
+  cursor: pointer;
+}
+
+.navbarContent:hover {
+  color: yellow;
+}
+
+.form {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.footer {
-  display: flex;
-  flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
-  justify-content: center;
-  align-items: center;
-}
-
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
-}
-
-.title a {
-  color: #0070f3;
-  text-decoration: none;
-}
-
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
-}
-
-.title {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
-}
-
-.title,
-.description {
-  text-align: center;
-}
-
-.description {
-  margin: 4rem 0;
-  line-height: 1.5;
-  font-size: 1.5rem;
-}
-
-.code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
-}
-
-.grid {
-  display: flex;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
-  max-width: 800px;
+  margin-top: 30px;
 }
 
-.card {
-  margin: 1rem;
-  padding: 1.5rem;
-  text-align: left;
-  color: inherit;
-  text-decoration: none;
-  border: 1px solid #eaeaea;
+.inputElement {
+  width: 30%;
   border-radius: 10px;
-  transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
+  height: 60px;
+  background-color: #f3fffb;
+  font-size: 20px;
+  border: white;
+  font-weight: bold;
+  margin: 20px;
+  color: black;
+  padding: 20px;
 }
 
-.card:hover,
-.card:focus,
-.card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+.textarea {
+  width: 30%;
+  border-radius: 10px;
+  background-color: #dcff96;
+  border: #557e02;
+  margin: 20px;
+  height: 200px;
+  font-size: 20px;
+  color: black;
+  padding: 20px;
 }
-
-.card h2 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
-}
-
-.card p {
-  margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
-}
-
-.logo {
-  height: 1em;
-  margin-left: 0.5rem;
-}
-
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  .card,
-  .footer {
-    border-color: #222;
-  }
-  .code {
-    background: #111;
-  }
-  .logo img {
-    filter: invert(1);
-  }
+.formButton {
+  width: 20%;
+  border-radius: 20px;
+  font-size: 20px;
+  border: 2px solid blue;
+  background-color: #007bff;
+  padding: 10px;
+  cursor: pointer;
 }
