@@ -5,7 +5,6 @@ import Head from "next/head";
 const ProjectList = () => {
   return (
     <>
-
     <div>
       <div className="port_bigBox">
         {/* 1 project */}

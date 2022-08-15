@@ -1,3 +1,5 @@
+import styles from "../../styles/Home.module.css"
+// not implemented yet
 const AnimatedLetters = ({ letterClass, strArray, idx }) => {
   return (
     <span>

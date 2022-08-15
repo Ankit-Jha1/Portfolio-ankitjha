@@ -2,7 +2,7 @@ import styles from "../../styles/Home.module.css";
 const ContactForm = () => {
   return (
     <>
-      <div>
+      <div >
         <form action="#" method="get" className={styles.form}>
           {/* <label for="first">First name:</label> */}
           <input
@@ -22,7 +22,6 @@ const ContactForm = () => {
             placeholder="Subject"
             required
             className={styles.inputElement}
-
           />
           <textarea
             type="text"
