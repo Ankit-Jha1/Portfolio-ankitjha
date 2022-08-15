@@ -4,6 +4,7 @@ const AboutContent = () => {
   return (
     <>
       <div className={styles.shadow}>
+      <div className={styles.aboutHeading}><span className={styles.webdev}>About Me</span></div>
         <div className={styles.aboutIntro}>
           <div>
             <li className={styles.para}>

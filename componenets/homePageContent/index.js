@@ -6,7 +6,6 @@ import Link from "next/link";
 const HomePageContent = () => {
   
   return (
-    
     <div>
       <div className={styles.Intro}>
         Hello, I am Ankit Jha. <br />

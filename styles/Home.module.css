@@ -36,14 +36,13 @@
   border-radius: 20px;
   margin-bottom: 20px;
   margin-top: 30px;
-  
-  -webkit-box-shadow: 0px 0px 34px 5px rgba(0,0,0,0.75);
-  -moz-box-shadow: 0px 0px 34px 5px rgba(0,0,0,0.75);
-  box-shadow: 0px 0px 34px 5px rgba(0,0,0,0.75);;
+
+  -webkit-box-shadow: 0px 0px 34px 5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 34px 5px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 34px 5px rgba(0, 0, 0, 0.75);
 }
 .projectNames {
   padding: 15px;
-  
 }
 
 .projectList {
@@ -60,7 +59,10 @@
   width: 100px;
   margin: 3px;
   height: 40px;
-  background-color: #bfcc5e;
+  /* background-color: #bfcc5e; */
+  /* background-color: ; */
+  animation: mymove 5s infinite;
+  animation-timing-function: ease-in-out;
   font-size: 25px;
   text-decoration: none;
   font-family: "Comic Neue", cursive;
@@ -68,6 +70,22 @@
   border: 1px solid #263803;
   color: rgb(26, 2, 2);
   font-weight: bold;
+}
+@keyframes mymove {
+  /* from {background-color: yellow;}
+  to {background-color: blue;} */
+  0% {
+    background-color: rgb(240, 245, 121);
+  }
+  40% {
+    background-color: rgb(88, 210, 214);
+  }
+  80% {
+    background-color: rgb(142, 227, 116);
+  }
+  100%{
+    background-color: rgb(240, 245, 121);
+  }
 }
 
 .Intro {
@@ -87,10 +105,12 @@
   align-content: center;
   justify-content: center;
 
-  -webkit-box-shadow: 0px 0px 34px 5px rgba(0,0,0,0.75);
-  -moz-box-shadow: 0px 0px 34px 5px rgba(0,0,0,0.75);
-  box-shadow: 0px 0px 34px 5px rgba(0,0,0,0.75);;
+  -webkit-box-shadow: 0px 0px 34px 5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 34px 5px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 34px 5px rgba(0, 0, 0, 0.75);
   padding: 50px;
+
+  min-width: 400px;
 }
 .heading {
   font-size: 25px;
@@ -120,15 +140,15 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  
+
   margin-top: 40px;
   margin-left: 20%;
   margin-right: 20%;
 
-  -webkit-box-shadow: 0px 0px 42px 13px rgba(0,0,0,0.75);
--moz-box-shadow: 0px 0px 42px 13px rgba(0,0,0,0.75);
-box-shadow: 0px 0px 42px 13px rgba(0,0,0,0.75);
-  
+  -webkit-box-shadow: 0px 0px 42px 13px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 42px 13px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 42px 13px rgba(0, 0, 0, 0.75);
+
   padding: 20px 0px 40px 0px;
 }
 
@@ -209,8 +229,8 @@ box-shadow: 0px 0px 42px 13px rgba(0,0,0,0.75);
   color: #f11ea4;
 }
 
-.homeButton{
-  width: 20%;
+.homeButton {
+  /* width: 20%; */
   border-radius: 20px;
   font-size: 20px;
   border: 2px solid rgb(160, 160, 207);
@@ -218,15 +238,16 @@ box-shadow: 0px 0px 42px 13px rgba(0,0,0,0.75);
   padding: 10px;
   cursor: pointer;
   margin-top: 30px;
+  width: 200px;
 }
 
-.shadow{
+.shadow {
   margin-top: 40px;
   margin-bottom: 100px;
   margin-left: 50px;
   margin-right: 50px;
   padding: 50px;
-  -webkit-box-shadow: 0px 0px 42px 13px rgba(0,0,0,0.75);
--moz-box-shadow: 0px 0px 42px 13px rgba(0,0,0,0.75);
-box-shadow: 0px 0px 42px 13px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 0px 42px 13px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 42px 13px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 42px 13px rgba(0, 0, 0, 0.75);
 }
