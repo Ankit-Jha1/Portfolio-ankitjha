@@ -24,7 +24,7 @@
 }
 
 .project {
-  margin-left: 100px;
+  margin-left: 200px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -75,15 +75,15 @@
   /* from {background-color: yellow;}
   to {background-color: blue;} */
   0% {
-    background-color: rgb(240, 245, 121);
+    background-color: rgb(245, 237, 121);
   }
   40% {
-    background-color: rgb(88, 210, 214);
+    background-color: rgb(214, 88, 180);
   }
   80% {
     background-color: rgb(142, 227, 116);
   }
-  100%{
+  100% {
     background-color: rgb(240, 245, 121);
   }
 }
@@ -142,14 +142,14 @@
   justify-content: center;
 
   margin-top: 40px;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 10%;
+  margin-right: 10%;
 
   -webkit-box-shadow: 0px 0px 42px 13px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 0px 42px 13px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 0px 42px 13px rgba(0, 0, 0, 0.75);
 
-  padding: 20px 0px 40px 0px;
+  padding: 0px 0px 20px 0px;
 }
 
 .inputElement {
@@ -240,6 +240,10 @@
   margin-top: 30px;
   width: 200px;
 }
+.homeButton:hover {
+  background-color: #0b54a3;
+  font-weight: bold;
+}
 
 .shadow {
   margin-top: 40px;
@@ -250,4 +254,10 @@
   -webkit-box-shadow: 0px 0px 42px 13px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 0px 42px 13px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 0px 42px 13px rgba(0, 0, 0, 0.75);
+}
+
+.ProjectsList {
+  margin-right: 200px;
+  margin-bottom: 80px;
+  margin-top: 50px;
 }
