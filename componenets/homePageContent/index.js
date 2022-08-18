@@ -4,7 +4,6 @@ import styles from "../../styles/Home.module.css";
 import Link from "next/link";
 
 const HomePageContent = () => {
-  
   return (
     <div>
       <div className={styles.Intro}>
