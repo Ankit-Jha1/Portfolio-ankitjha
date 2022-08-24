@@ -80,11 +80,17 @@ const Projects = () => {
       GithubLink: "http://localhost:3000/projects#",
     },
     {
-      id:12,
-      Projectname:"Twitter Clone",
-      LiveLink:"https://twitter-ankit-jha.vercel.app/",
-      GithubLink:"https://github.com/Ankit-Jha1/Twitter"
-    }
+      id: 12,
+      Projectname: "Twitter Clone",
+      LiveLink: "https://twitter-ankit-jha.vercel.app/",
+      GithubLink: "https://github.com/Ankit-Jha1/Twitter",
+    },
+    {
+      id: 13,
+      Projectname: "Ecommerce Website",
+      GithubLink: "https://github.com/Ankit-Jha1/Ecommerce-website",
+      LiveLink: "",
+    },
   ];
   return (
     <>
