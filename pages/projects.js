@@ -89,7 +89,7 @@ const Projects = () => {
       id: 13,
       Projectname: "Ecommerce Website",
       GithubLink: "https://github.com/Ankit-Jha1/Ecommerce-website",
-      LiveLink: "",
+      LiveLink: "https://dreamy-sorbet-bdf5d9.netlify.app/",
     },
   ];
   return (
